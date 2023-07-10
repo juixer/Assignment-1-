@@ -1,4 +1,4 @@
-/* Font margin css */
+/* Font margin css primary css */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 *{
     margin: 0;
@@ -7,6 +7,22 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.headline_tag{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.btn_primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    padding: 20px 45px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 /* Font margin css */
 /* header */
 .intro_container{
@@ -30,15 +46,6 @@ justify-content: space-between;
     margin-bottom: 32px;
 }
 
-.btn_primary{
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFFFFF;
-    padding: 20px 45px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
 .intro_divs img{
     width: 635px;
     margin-bottom: -2px;
@@ -47,3 +54,17 @@ justify-content: space-between;
     max-width: 650px;
     padding: 150px 100px 0 240px;
 }
+/* header ended */
+/* featured flowers */
+.featured_intro{
+    text-align: center;
+    width: 600px;
+    margin: 175px 660px 50px 660px;
+}
+ .featured_description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+ }
+/* featured flowers ends */
