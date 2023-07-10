@@ -67,4 +67,35 @@ justify-content: space-between;
     font-size: 18px;
     font-weight: 400;
  }
+ .featured_flower_divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    margin: 0px 240px 130px 240px;
+ }
+ .featured_box a{
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-top: 35px;
+ }
+ .featured_flower{
+    height: 378px;
+    padding: 120px 50px 50px 50px;
+    border-radius: 300px 300px 0px 0px;
+    overflow: hidden;
+ }
+ .pink_flower{
+    background-color:#A7216226;
+ }
+ .flower_bouquet{
+    background-color:#0597A026;
+ }
+ .yellow_flower{
+    background-color:#477D1126;
+ }
 /* featured flowers ends */
