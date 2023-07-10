@@ -99,3 +99,23 @@ justify-content: space-between;
     background-color:#477D1126;
  }
 /* featured flowers ends */
+/* services */
+.services_text{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
+.services_divs{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 175px 90px 175px;
+    margin: 0 140px 130px 140px;
+    background-color: #2727270D;
+    border-radius: 10px;
+}
+.services_box img{
+    margin: 0 auto;
+}
+/* services ended */
