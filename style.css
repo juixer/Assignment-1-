@@ -223,13 +223,14 @@ border-radius: 0 0 10px 10px;
     align-items: center;
     gap: 100px;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     background: rgba(59, 64, 88, 0.5);
 
 }
 .review_btn_div{
     background: rgba(59, 64, 88, 0.5);
     padding-bottom: 40px;
+    border-radius: 0 0 10px 10px;
 }
 .review_box{
     background: rgba(0, 0, 0, 0.5);
