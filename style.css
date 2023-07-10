@@ -21,6 +21,7 @@ body{
     cursor: pointer;
     border: none;
     outline: none;
+    font-size: 20px;
 }
 
 /* Font margin css */
@@ -176,7 +177,32 @@ margin: 25px 660px 50px 660px;
     border-radius: 10px;
 }
 /* Instagram ended*/
-
+/* subscribe */
+.subscribe_container{
+    background-image: url('./Image/Rectangle\ 9.png');
+    text-align: center;
+    margin: 0 240px 130px 240px;
+    padding: 125px 290px 120px 290px;
+    border-radius: 8px;
+}
+.subscribe_container h6{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:15px;
+    margin-bottom: 50px;
+}
+.subscribe_container input[type=email]{
+    width: 550px;
+    border: none;
+    outline: none;
+    padding: 20px 0 20px 20px;
+    height: 25px;
+    margin-right: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+/* subscribe ended */
 /* footer */
 footer{
     background-color:#111010 ;
