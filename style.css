@@ -1,0 +1,49 @@
+/* Font margin css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* Font margin css */
+/* header */
+.intro_container{
+background-color: #d18e9d77;
+display: flex;
+justify-content: space-between;
+}
+/* header */
+.intro_divs h1{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.intro_description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 550px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.btn_primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    padding: 20px 45px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.intro_divs img{
+    width: 635px;
+    margin-bottom: -2px;
+}
+.intro_content{
+    max-width: 650px;
+    padding: 150px 100px 0 240px;
+}
