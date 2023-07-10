@@ -196,7 +196,6 @@ body{
     margin: 0 240px 130px 240px;
     padding: 125px 290px 120px 290px;
     border-radius: 8px;
-    box-shadow: 10px 10px 55px;
 
 }
 .subscribe_container h6{
@@ -225,7 +224,6 @@ body{
     border-radius: 10px;
     background-position: center;
     text-align: center;
-    box-shadow: 10px 10px 55px;
 } 
 .review_divs{
     display: flex;
@@ -273,7 +271,7 @@ footer{
     background-color:#111010 ;
     text-align: center;
     padding: 130px 650px;
-    box-shadow: -10px -10px 55px #b9062d7e;
+    box-shadow: -10px -10px 55px #dd6f868f;
 
 }
 footer h2{
