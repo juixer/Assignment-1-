@@ -158,9 +158,7 @@ border-radius: 0 0 10px 10px;
 .instagram_container h3{
     color: #515bd4;
 }
-.instagram_container h3 span{
-    color: #dd2a7b;
-}
+
 .instagram_description{
 color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
@@ -175,6 +173,12 @@ margin: 25px 660px 50px 660px;
 }
 .instagram_pic_divs img{
     border-radius: 10px;
+}
+.instagram_container h3 .tag{
+    color: #dd2a7b;
+}
+.instagram_container h3 .ram{
+    color: #f58529;
 }
 /* Instagram ended*/
 /* subscribe */
