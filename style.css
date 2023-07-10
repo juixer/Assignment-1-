@@ -7,9 +7,10 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+    background: rgba(0, 0, 0, 0.5);
 }
 .headline_tag{
-    color: #272727;
+    color: #f8f8f8;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
@@ -24,24 +25,28 @@ body{
     outline: none;
     font-size: 20px;
 }
+.btn_primary:hover{
+    background: black;
+    color: #E55473;
+    transition: 0.5s;
+}
 
 /* Font margin css */
 /* header */
 .intro_container{
-background-color: #d18e9d77;
-display: flex;
-justify-content: space-between;
-border-radius: 0 0 10px 10px;
+    background-color: #3e3a44c9;
+    display: flex;
+    justify-content: space-between;
 }
 /* header */
 .intro_divs h1{
-    color: #272727;
+    color: #e7a7c7;
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 32px;
 }
 .intro_description{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 18px;
     font-weight: 400;
     max-width: 550px;
@@ -51,7 +56,7 @@ border-radius: 0 0 10px 10px;
 
 .intro_divs img{
     width: 635px;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
 }
 .intro_content{
     max-width: 650px;
@@ -65,7 +70,7 @@ border-radius: 0 0 10px 10px;
     margin: 175px 660px 50px 660px;
 }
  .featured_description{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(255, 255, 255, 0.6);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -79,7 +84,7 @@ border-radius: 0 0 10px 10px;
     margin: 0px 240px 130px 240px;
  }
  .featured_box a{
-    color: #272727;
+    color: white;
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
@@ -89,22 +94,22 @@ border-radius: 0 0 10px 10px;
  .featured_flower{
     height: 378px;
     padding: 120px 50px 50px 50px;
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 300px 300px 15px 15px;
     overflow: hidden;
  }
  .pink_flower{
-    background-color:#A7216226;
+    background-color:#a721628f;
  }
  .flower_bouquet{
-    background-color:#0597A026;
+    background-color:#0598a0a1;
  }
  .yellow_flower{
-    background-color:#477D1126;
+    background-color:#7d7611cb;
  }
 /* featured flowers ends */
 /* services */
 .services_text{
-    color: rgba(39, 39, 39, 0.80);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
     font-weight: 600;
 }
@@ -115,8 +120,9 @@ border-radius: 0 0 10px 10px;
     align-items: center;
     padding: 85px 175px 90px 175px;
     margin: 0 140px 130px 140px;
-    background-color: #2727270D;
+    background-color: #3e3a44c9;
     border-radius: 10px;
+
 }
 .services_box img{
     margin: 0 auto;
@@ -127,22 +133,22 @@ border-radius: 0 0 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #d18e9d77;
+    background-color: #3e3a44c9;
     padding: 100px 430px 100px 400px;
-    border-radius: 15px;
     text-align: center;
+
 }
 .hot_deal_title{
-    color: #272727;
+    color: #ffffff;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
 }
 .hot_deal_title span{
-    color:#515bd4;
+    color:#5de268;
 }
 .hot_deal_description{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -158,10 +164,11 @@ border-radius: 0 0 10px 10px;
 }
 .instagram_container h3{
     color: #515bd4;
+    font-size: 65px;
 }
 
 .instagram_description{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(255, 253, 253, 0.822);
     font-size: 18px;
     font-weight: 400;
     margin: 25px 660px 50px 660px;
@@ -189,6 +196,8 @@ border-radius: 0 0 10px 10px;
     margin: 0 240px 130px 240px;
     padding: 125px 290px 120px 290px;
     border-radius: 8px;
+    box-shadow: 10px 10px 55px;
+
 }
 .subscribe_container h6{
     color: rgba(39, 39, 39, 0.60);
@@ -216,7 +225,8 @@ border-radius: 0 0 10px 10px;
     border-radius: 10px;
     background-position: center;
     text-align: center;
-}
+    box-shadow: 10px 10px 55px;
+} 
 .review_divs{
     display: flex;
     justify-content: space-between;
@@ -236,6 +246,7 @@ border-radius: 0 0 10px 10px;
     background: rgba(0, 0, 0, 0.5);
     padding: 50px;
     border-radius: 15px;
+    box-shadow: 10px 10px 55px;
 }
 .review_name{
     color: #ca8383;
@@ -262,6 +273,8 @@ footer{
     background-color:#111010 ;
     text-align: center;
     padding: 130px 650px;
+    box-shadow: -10px -10px 55px #b9062d7e;
+
 }
 footer h2{
     color: white;
@@ -272,6 +285,7 @@ footer h2{
 footer h2 span{
     color: #E55473;
 }
+
 footer p{
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
