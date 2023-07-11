@@ -25,11 +25,7 @@ body{
     outline: none;
     font-size: 20px;
 }
-.btn_primary:hover{
-    background: black;
-    color: #E55473;
-    transition: 0.5s;
-}
+
 
 /* Font margin css */
 /* header */
@@ -92,9 +88,7 @@ body{
     text-decoration-line: underline;
     padding-top: 35px;
  }
- .featured_box a:hover{
-    color: #5de268;
- }
+ 
  .featured_flower{
     height: 378px;
     padding: 120px 50px 50px 50px;
