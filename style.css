@@ -37,6 +37,7 @@ body{
     background-color: #3e3a44c9;
     display: flex;
     justify-content: space-between;
+    box-shadow: 10px 10px 55px #0a0a0a42;
 }
 /* header */
 .intro_divs h1{
@@ -91,11 +92,16 @@ body{
     text-decoration-line: underline;
     padding-top: 35px;
  }
+ .featured_box a:hover{
+    color: #5de268;
+ }
  .featured_flower{
     height: 378px;
     padding: 120px 50px 50px 50px;
     border-radius: 300px 300px 15px 15px;
     overflow: hidden;
+    box-shadow: 10px 10px 55px #0a0a0a48;
+
  }
  .pink_flower{
     background-color:#a721628f;
@@ -125,7 +131,7 @@ body{
     margin: 0 140px 130px 140px;
     background-color: #3e3a44c9;
     border-radius: 10px;
-
+    box-shadow: 10px 10px 55px #0a0a0a60;
 }
 .services_box img{
     margin: 0 auto;
@@ -139,7 +145,7 @@ body{
     background-color: #3e3a44c9;
     padding: 100px 430px 100px 400px;
     text-align: center;
-
+    box-shadow: 10px 10px 55px #0a0a0a5d;
 }
 .hot_deal_title{
     color: #ffffff;
@@ -184,6 +190,7 @@ body{
 }
 .instagram_pic_divs img{
     border-radius: 10px;
+    box-shadow: 10px 10px 55px #0a0a0a69;
 }
 .instagram_container h3 .tag{
     color: #dd2a7b;
@@ -199,7 +206,7 @@ body{
     margin: 0 240px 130px 240px;
     padding: 125px 290px 120px 290px;
     border-radius: 8px;
-
+    box-shadow: 10px 10px 55px #0a0a0a60;
 }
 .subscribe_container h6{
     color: rgba(39, 39, 39, 0.60);
@@ -227,7 +234,9 @@ body{
     border-radius: 10px;
     background-position: center;
     text-align: center;
+    box-shadow: 10px 10px 55px #0a0a0a6e;
 } 
+
 .review_headline{
     background: rgba(59, 64, 88, 0.5);
     border-radius: 10px 10px 0 0;
@@ -239,6 +248,10 @@ body{
 }
 .review_headline h3 span{
     color: #ffd900;
+}
+.review_stars{
+    color: orange;
+    margin-bottom: 15px;
 }
 .review_divs{
     display: flex;
@@ -286,7 +299,7 @@ footer{
     background-color:#111010 ;
     text-align: center;
     padding: 130px 650px;
-    box-shadow: -10px -10px 55px #dd6f868f;
+    box-shadow: -10px -10px 55px #0a0a0a5b;
 
 }
 footer h2{
