@@ -103,6 +103,9 @@ body{
  .flower_bouquet{
     background-color:#0598a0a1;
  }
+ .flower_bouquet img{
+    width: 314px;
+ }
  .yellow_flower{
     background-color:#7d7611cb;
  }
@@ -225,15 +228,25 @@ body{
     background-position: center;
     text-align: center;
 } 
+.review_headline{
+    background: rgba(59, 64, 88, 0.5);
+    border-radius: 10px 10px 0 0;
+    padding-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.review_headline h3{
+    font-size: 50px;
+}
+.review_headline h3 span{
+    color: #ffd900;
+}
 .review_divs{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
     padding: 50px;
-    border-radius: 10px 10px 0 0;
     background: rgba(59, 64, 88, 0.5);
-
 }
 .review_btn_div{
     background: rgba(59, 64, 88, 0.5);
@@ -245,6 +258,8 @@ body{
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 55px;
+    width: 500px;
+    height: 250px;
 }
 .review_name{
     color: #ca8383;
